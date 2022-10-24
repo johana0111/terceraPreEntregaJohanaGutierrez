@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.formularioContainer{
+background-color: #DEF7FF;
+display: flex;
+flex-direction: column;
+width: 85%;
+margin-left: 10%;
+margin-top: 50px;
+padding: 5%;
+border-radius: 1%;
+box-shadow: 3px 8px 12px #3E3740;
+}
+
+
+.formulario{
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;    
+   justify-content: space-between;
+
+}
+.formulario label{
+    padding: 5pt;
+}
+
+.formulario input{
+    padding: 5pt;
+}
+.monto{
+    width:30%;
+    border-radius: 2px;
+    border: solid 1px #3E3740;
+}
+.estilo{
+    font-family: 'Quicksand', sans-serif ;
+    font-size:  12pt;
+    padding: 10 px;
+    margin: 10 px;
+}
+.estilo2{
+    width:15%;
+    border: solid 1px #3E3740;
+}
+.boton{
+    background-color: #394954;
+    color: white;
+    font-size: 12pt;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 2px;
+    border: none;
+    padding: 20px;
+    margin: 16px none;
+
+}
+.boton:hover{
+    background-color: #514954;
+}
+
+/*--- Propiedades de textos ---*/
+
+.textoComun{
+    font-size: 12px;
+    color:#514954;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.titulos{
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    color: #394954;
+    font-size: 14pt;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Tercera Pre entrega Johana Gutierrez</title>
+</head>
+<body>
+    <main class="formularioContainer">
+        <section  id="container">
+            <h2 class="titulos">Conversion de divisas</h2>
+            <form class="formulario">
+                <label class="textoComun" for="moneda"> Monto en $</label>
+                <input class="monto estilo textoComun" type="number" id="moneda" min="1" max="100000">
+                <select class="estilo2"   name="opcion" id="desde">
+                    <option class="textoComun" value="pesos" >Pesos</option>
+                    <option class="textoComun" value="dolar">Dolar</option>
+                    <option class="textoComun" value="euro">Euro</option>
+                </select>
+                <span class="textoComun"> A: </span>
+                <select class="estilo2"  name="opcion" id="hacia">
+                    <option class="textoComun" value="pesos">Pesos</option>
+                    <option class="textoComun" value="dolar" selected>Dolar</option>
+                    <option class="textoComun" value="euro">Euro</option>
+                </select>
+                <input class="boton" type="button"  id="conversion"   value="Convertir" onclick="convertir ()">
+            </form>
+    </section>
+    <section id="result">
+        <h3 class="titulos">Conversion de moneda</h3>
+        <p class="textoComun" id="monedaConvertida">$0</p>
+    </section>
+    </main>
+    <script type='text/javascript' src='js/main.js'></script>
+</body>
+</html>
